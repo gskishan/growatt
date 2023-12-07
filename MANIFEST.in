@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include growatt *.css
+recursive-include growatt *.csv
+recursive-include growatt *.html
+recursive-include growatt *.ico
+recursive-include growatt *.js
+recursive-include growatt *.json
+recursive-include growatt *.md
+recursive-include growatt *.png
+recursive-include growatt *.py
+recursive-include growatt *.svg
+recursive-include growatt *.txt
+recursive-exclude growatt *.pyc
